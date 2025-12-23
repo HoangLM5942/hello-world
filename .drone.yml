@@ -2,6 +2,9 @@ kind: pipeline
 type: kubernetes
 name: hello-world
 
+metadata:
+  namespace: lab2-ci-cd
+
 steps:
   - name: hello
     image: alpine:3.20.8
