@@ -6,9 +6,9 @@ steps:
   - name: hello
     image: alpine:3.20.8
     commands:
-      - echo "Hello from Drone CI"
-      - echo "Repo: $DRONE_REPO"
-      - echo "Branch: $DRONE_BRANCH"
-      - echo "Commit: $DRONE_COMMIT_SHA"
-      - uname -a
-      - date
+      - "echo 'Hello from Drone CI'"
+      - "echo 'Repo: $DRONE_REPO'"
+      - "echo 'Branch: $DRONE_BRANCH'"
+      - "echo 'Commit: $DRONE_COMMIT_SHA'"
+      - "uname -a"
+      - "date"
